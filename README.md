@@ -1,2 +1,2 @@
 # examples
-Examples from free JavaStart lessons
+Examples from free [JavaStart](http://javastart.pl) lessons
