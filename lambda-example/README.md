@@ -1,2 +1,2 @@
-Simple JAX-RS example.
-[Functional interfaces](javastart.pl/static/slownik/wyrazenia-lambda/) on JavaStart.pl
+Simple lambda expressions example.
+[Wyra¿enia lambda](javastart.pl/static/slownik/wyrazenia-lambda/) on JavaStart.pl
