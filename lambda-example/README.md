@@ -1,2 +1,2 @@
 Simple lambda expressions example.
-[Wyraøenia lambda](http://javastart.pl/static/slownik/wyrazenia-lambda/) on JavaStart.pl
+[Wyra≈ºenia lambda](http://javastart.pl/static/slownik/wyrazenia-lambda/) on JavaStart.pl
