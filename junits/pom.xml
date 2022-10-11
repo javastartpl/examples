@@ -21,6 +21,7 @@
 
     <modules>
         <module>junits-mockito</module>
+        <module>junits-mockito-mock-creation</module>
     </modules>
 
 </project>
