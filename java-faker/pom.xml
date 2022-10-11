@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.javastart</groupId>
-    <artifactId>faker</artifactId>
+    <artifactId>java-faker</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
