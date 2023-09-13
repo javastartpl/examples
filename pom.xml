@@ -20,6 +20,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <module>popular-exceptions</module>
         <module>prettyprinttree</module>
         <module>refactoring</module>
+        <module>reflection</module>
         <module>set-example</module>
         <module>tostring</module>
         <module>validation-example</module>
