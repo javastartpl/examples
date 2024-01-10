@@ -18,16 +18,12 @@ class StyleProcessor implements Processor<StyleProcessor, RuntimeException> {
     public StyleProcessor process(StringTemplate template) {
         StringBuilder builder = new StringBuilder(text);
         String interpolatedTemplate = template.interpolate();
-        if (interpolatedTemplate.split("\\s").length > 1) {
-            builder.append(interpolatedTemplate);
-        } else {
-            switch (interpolatedTemplate) {
-                case "RED" -> builder.append(RED);
-                case "BLUE" -> builder.append(BLUE);
-                case "BOLD" -> builder.append(BOLD);
-                case "UNDERLINE" -> builder.append(UNDERLINE);
-                default -> builder.append(template.interpolate());
-            }
+        switch (interpolatedTemplate) {
+            case "RED" -> builder.append(RED);
+            case "BLUE" -> builder.append(BLUE);
+            case "BOLD" -> builder.append(BOLD);
+            case "UNDERLINE" -> builder.append(UNDERLINE);
+            default -> builder.append(template.interpolate());
         }
         return new StyleProcessor(builder.toString());
     }
