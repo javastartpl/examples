@@ -25,6 +25,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <module>tostring</module>
         <module>validation-example</module>
         <module>junits</module>
+        <module>string-template-processor</module>
     </modules>
 
 </project>
